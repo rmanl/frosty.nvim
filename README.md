@@ -6,6 +6,8 @@ The definitive collection of black-metal inspired neovim colorschemes!
 
 This new version is based on the great work done by @cdmill on https://github.com/cdmill/neomodern.nvim. Big hail to him!
 
+If you want to support the project, buy a T-shirt with the logo on [printify](https://black-metal-neovim.printify.me/product/19851229/neovim-graphic-unisex-softstyle-t-shirt-alternative-style-for-music-lovers)!
+
 ## Included themes
 
 ### Bathory
