@@ -1,2 +1,2 @@
 require("frosty").setup({ alt_bg = true })
-require("frosty").load("taake")
+require("frosty").load("nord")
