@@ -1,2 +1,2 @@
-require("black-metal").setup({})
-require("black-metal").load("taake")
+require("frosty").setup({})
+require("frosty").load("taake")
