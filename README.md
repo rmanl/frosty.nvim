@@ -3,6 +3,10 @@
 Original theme by metalelf0 and tweaked to my preference
 [black-metal-theme-neovim](https://github.com/metalelf0/black-metal-theme-neovim)
 
+## Palette
+
+![base16 palette](palette/palette.png)
+
 ## Configuration
 
 Default options
@@ -11,8 +15,8 @@ Default options
 require("frosty").setup({
   -----MAIN OPTIONS-----
   --
-  -- Can be one of: taake | nord
-  theme = "taake",
+  -- Can be one of: nord | taake
+  theme = "nord",
   -- Can be one of: 'light' | 'dark', or set via vim.o.background
   variant = "dark",
   -- Use an alternate, lighter bg
