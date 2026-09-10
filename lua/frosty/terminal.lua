@@ -8,7 +8,7 @@ local Util = require("frosty.util")
 function M.colors(with_palette)
 	---@type frosty.Config
 	local Config = require("frosty").options()
-	local palette = require("frosty.palette").get(Config.theme, Config.variant)
+	local palette = require("frosty.palette").get(Config.theme)
 	palette.dim = Util.blend(palette.bg, 0.9, "#000000")
 	if with_palette then
 		return vim.tbl_deep_extend("force", palette.colormap, palette)

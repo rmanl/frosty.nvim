@@ -48,7 +48,7 @@ function M.setup()
 	---@type frosty.Config
 	local Config = require("frosty").options()
 	---@type frosty.Theme
-	local c = require("frosty.palette").get(Config.theme, Config.variant)
+	local c = require("frosty.palette").get(Config.theme)
 
 	local custom_colors = Config.colors
 

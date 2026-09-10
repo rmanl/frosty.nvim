@@ -17,8 +17,6 @@ require("frosty").setup({
   --
   -- Can be one of: nord | taake
   theme = "nord",
-  -- Can be one of: 'light' | 'dark', or set via vim.o.background
-  variant = "dark",
   -- Use an alternate, lighter bg
   alt_bg = false,
   -- If true, docstrings will be highlighted like strings, otherwise they will be
@@ -37,8 +35,6 @@ require("frosty").setup({
   show_eob = true,
   -- If true, enable the vim terminal colors
   term_colors = true,
-  -- Keymap (in normal mode) to toggle between light and dark variants.
-  toggle_variant_key = nil,
   -- Don't set background
   transparent = false,
 

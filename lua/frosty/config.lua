@@ -15,9 +15,7 @@ local M = {}
 ---@field show_eob? boolean If true, highlights end-of-buffer tildes like comments
 ---@field theme? string Preferred theme
 ---@field term_colors? boolean If true, enables terminal colors
----@field toggle_variant_key? nil|string Keymap (normal mode) to toggle light/dark mode
 ---@field transparent? boolean If true, does not set background colors
----@field variant? string light | dark
 M.default = {
 	alt_bg = false,
 	colored_docstrings = true,
@@ -28,9 +26,7 @@ M.default = {
 	show_eob = true,
 	term_colors = true,
 	theme = "taake",
-	toggle_variant_key = nil,
 	transparent = true,
-	variant = "dark",
 
 	code_style = {
 		comments = "italic",

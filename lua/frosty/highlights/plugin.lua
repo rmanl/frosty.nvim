@@ -5,7 +5,7 @@ function M.get()
 	local Config = require("frosty").options()
 	local Util = require("frosty.util")
 	---@type frosty.Theme
-	local c = require("frosty.palette").get(Config.theme, Config.variant)
+	local c = require("frosty.palette").get(Config.theme)
 	local hl = {}
 
 	hl.special = {

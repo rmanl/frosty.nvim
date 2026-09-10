@@ -45,15 +45,10 @@ for key, theme in pairs(M.themes) do
 	M[key] = require("frosty.palette." .. theme)
 end
 
----Returns a read-only copy of the light or dark variant of a theme.
+---Returns a read-only copy of a theme's palette.
 ---@param theme string
----@param variant string
-M.get = function(theme, variant)
-	if variant == "light" then
-		return require("frosty.palette.day").get()
-	else
-		return vim.deepcopy(M[theme])
-	end
+M.get = function(theme)
+	return vim.deepcopy(M[theme])
 end
 
 return M
