@@ -33,8 +33,10 @@ Extras:
 - `extra/btop/<theme>.theme`
 - `extra/claude/<theme>.json`
 - `extra/foot/<theme>.ini`
+- `extra/fuzzel/<theme>.ini`
 - `extra/fzf/<theme>.zsh`
 - `extra/gtk/<theme>.css`
+- `extra/mako/<theme>.ini`
 - `extra/spotify/<theme>.ini`
 - `extra/zathura/<theme>.zathurarc`
 
